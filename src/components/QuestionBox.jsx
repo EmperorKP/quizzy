@@ -3,6 +3,7 @@ import questions from './question';
 import './QuestionBox.css';
 import Result from './Result';
 
+
 export default function QuestionBox() {
   const [questionState, setQuestionState] = useState(0);// This is to intialise the question number and a fucntion to increment the question
   const [isDisplayed, setIsDisplayed] = useState(false);// This is to toggle the dark Mode 
@@ -53,6 +54,8 @@ export default function QuestionBox() {
 }
 
   return (
+    
+    
     <div id="main-div">
       <div className="nav-bar">
         <span>quizzy</span>

@@ -4,7 +4,7 @@ import './result.css'
 export default function Result(props) {
   const result = props.score
   const totalScore = 5
- 
+
 
   return (
    

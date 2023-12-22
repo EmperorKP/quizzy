@@ -1,5 +1,5 @@
 import "./App.css";
-import QuestionBox from "./components/QuestionBox";
+import QuizFrontPage from "./components/QuizFrontPage";
 
 
 
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <div >
-      <QuestionBox/>
+      <QuizFrontPage />
+
     </div>
   );
 }
