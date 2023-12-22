@@ -1,0 +1,21 @@
+.result-container {
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgb(87, 83, 83);
+    border-radius: 16px;
+}
+.result-container p:nth-child(1),p:nth-child(2) {
+        font-size: 30px;
+        font-weight: 600;
+}
+.result-container button {
+    height: 50px;
+    width: 100px;
+    border: 0;
+    font-size: 15px;
+    padding: 8px;
+    font-weight: 600;
+    background-color: rgb(90, 86, 86);
+    border-radius: 8px;
+    color: aliceblue;
+}
